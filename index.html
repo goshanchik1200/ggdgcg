@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body style="display:flex;justify-content:center;align-items:center;height:100vh;">
+
+<button id="btn" style="font-size:40px;">▶ ВКЛЮЧИТЬ ЗВУК</button>
+
+<audio id="a" src="ston.mp3"></audio>
+
+<script>
+document.getElementById("btn").onclick = () => {
+  document.getElementById("a").play();
+};
+</script>
+
+</body>
+</html>
