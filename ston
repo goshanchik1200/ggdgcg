@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body style="margin:0;height:100vh;">
+
+<audio id="a" src="ston.mp3"></audio>
+
+<script>
+document.addEventListener("click", () => {
+  const a = document.getElementById("a");
+  a.play();
+}, { once: true });
+</script>
+
+<p style="text-align:center;margin-top:40vh;font-size:24px;">
+  Нажми в любом месте
+</p>
+
+</body>
+</html>
